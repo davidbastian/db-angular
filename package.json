@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/davidbastian/db-angular/issues"
   },
-  "homepage": "https://github.com/davidbastian/db-angular"
+  "homepage": "https://github.com/davidbastian/db-angular",
+  "devDependencies": {
+    "angular": "^1.4.8",
+    "gsap": "^1.18.2",
+    "webpack": "^1.12.10"
+  }
 }
