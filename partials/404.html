@@ -1,0 +1,25 @@
+<section id="home" data-msg="{{message}}">
+    <div class="projects">     
+        <div class="project">
+            <div class="title">
+                <h6>page not found___</h6>
+                <h1>Ouch something wrong :(</h1>
+            </div>
+           <!--  <p>{{detail.description}}</p> -->
+            <div class="media" style="background-color:{{detail.color}}">
+                <div ng-repeat="x in detail.media" class="device {{x.device}}">
+                    <img class="marco" ng-src="img/{{x.device}}.png" alt="" >
+                    <img class="item" ng-src="img/{{x.image}}" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<footer>
+    <div class="footer-wrap">
+      <h6 class="number">0{{number}}</h6>
+      <h6 class="next">Next <span>→</span></h6>
+    </div>
+</footer>

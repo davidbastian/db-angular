@@ -1,0 +1,344 @@
+/*
+Theme Name: David Bastian 
+Theme URI: 
+Author: david bastian
+Author URI: http://www.davidbastian.cl/
+Description: no yet
+Version: 2.0
+Tags: no yet
+Text Domain: no yet
+*/
+
+@import "less/variables";
+aside {
+    position: fixed;
+    left: 2vw;
+    width: 100%;
+    bottom: 26.3333%;
+    .flex-block();
+    .align-items(center);
+    .rotate(-90deg);
+    .transform-origin(left);
+    ul {
+        // .rotate(-90deg);
+        //.transform-origin(left);
+        width: auto;
+        margin-bottom: 0px;
+        li {
+            a {
+                font-family: serif;
+                text-transform: uppercase;
+                font-size: 0.9vw;
+            }
+        }
+    }
+}
+
+header {
+    position: relative;
+    z-index: 10;
+    .header-wrap {
+        .b-box(1.6vw);
+        .clearfix;
+        #brand {
+            font-size: 1.2vw;
+            //font-family: serif;
+            text-transform: capitalize;
+            float: left;
+            font-weight: 500;
+        }
+        #menu {
+            float: right;
+            width: 2.3vw;
+            height: 21px;
+            position: relative;
+            img {
+                display: block;
+                width: 100%;
+                position: absolute;
+                top: -8px;
+            }
+            span {
+                width: 100%;
+                height: 0.6px;
+                background-color: @black;
+                position: absolute;
+                display: block;
+                right: 0;
+                &:nth-child(1) {
+                    top: 5px;
+                }
+                &:nth-child(2) {
+                    top: 1.3vh;
+                }
+                &:nth-child(3) {
+                    top: 2vh;
+                }
+            }
+        }
+    }
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    .footer-wrap {
+        .b-box(1.6vw);
+        .clearfix;
+        h6 {
+            margin-bottom: 0px;
+            font-weight: 800;
+            font-size: 0.8vw;
+            text-transform: uppercase;
+            span {
+                font-size: 1.6vw;
+                position: relative;
+                top: 0.2vh;
+                margin-left: 10px;
+            }
+            &.next {
+                float: right;
+                cursor: pointer;
+            }
+            &.number {
+                float: left;
+            }
+        }
+    }
+}
+
+.projects {
+    width: 100%;
+    margin: 0 auto;
+    height: 100%;
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    .project {
+        position: absolute;
+        width: 85%;
+        height: 80%;
+        visibility: hidden;
+        opacity: 0;
+        left: 50%;
+        top: 50%;
+        .translate(-50%;
+        -50%);
+        .title {
+            position: absolute;
+            z-index: 1;
+            top: 20%;
+            h6 {
+                margin-bottom: 0px;
+                font-size: 1.3vw;
+                font-weight: 200;
+                font-style: italic;
+                font-family: serif;
+            }
+            h1 {
+                /*margin-bottom: 0px;
+                font-weight: 200;
+                font-size: 4vw;
+                letter-spacing: -0.2vw;
+                line-height: 83%;
+                font-family: serif;
+                text-transform: uppercase;
+                margin-top: 1vh;
+                overflow: hidden;*/
+                
+                margin-bottom: 0px;
+                font-weight: 500;
+                font-size: 3.5vw;
+                letter-spacing: -0.1vw;
+                line-height: 90%;
+                font-family: sans-serif;
+                //text-transform: capitalize;
+                margin-top: 1vh;
+                /* overflow: hidden; */
+                
+                div {
+                    display: inline-block;
+                    //overflow: hidden;
+                    width: 100%;
+                    font: inherit;
+                    position: relative;
+                }
+            }
+        }
+        p {
+            position: absolute;
+            left: 0;
+            z-index: 2;
+            max-width: 14vw;
+            margin-bottom: 0px;
+            bottom: 8vh;
+            font-size: 0.9vw;
+        }
+        .media {
+            position: absolute;
+            /*width: 80%;*/
+            
+            width: 70%;
+            height: 100%;
+            border-color: white;
+            background-color: #c6c6c6;
+            right: 0;
+            overflow: hidden;
+            background-size: cover;
+            background-repeat: no-repeat;
+            .device {
+                &.ipad {
+                    /*width: 45%;
+                position: absolute;
+                right: 26%;
+                bottom: -19%;
+                min-width: 400px;*/
+                    
+                    position: absolute;
+                    left: 50%;
+                    top: 50%;
+                    .translate(-50%;
+                    -50%);
+                    width: 35%;
+                    min-width: 300px;
+                    img {
+                        &.marco {
+                            display: block;
+                            width: 100%;
+                            position: relative;
+                            z-index: 2;
+                            // opacity: 0.2;
+                        }
+                        &.item {
+                            display: block;
+                            width: 89%;
+                            position: absolute;
+                            top: 8%;
+                            right: 5.5%;
+                            //z-index: 2;
+                        }
+                    }
+                }
+                &.iphone {
+                    width: 25%;
+                    position: absolute;
+                    left: 50%;
+                    top: 50%;
+                    .translate(-50%;
+                    -50%);
+                    width: 20%;
+                    min-width: 220px;
+                    img {
+                        &.marco {
+                            display: block;
+                            width: 100%;
+                            position: relative;
+                            z-index: 2;
+                            // opacity: 0.2;
+                        }
+                        &.item {
+                            display: block;
+                            width: 89%;
+                            position: absolute;
+                            top: 13.5%;
+                            right: 5.5%;
+                            //z-index: 2;
+                        }
+                    }
+                    &.doble {
+                        width: 25%;
+                        position: absolute;
+                        left: 65%;
+                        top: 50%;
+                        .translate(-50%;
+                        -50%);
+                        img {
+                            &.marco {
+                                display: block;
+                                width: 100%;
+                                position: relative;
+                                z-index: 2;
+                                // opacity: 0.2;
+                            }
+                            &.item {
+                                display: block;
+                                width: 89%;
+                                position: absolute;
+                                top: 8%;
+                                right: 5.5%;
+                                //z-index: 2;
+                            }
+                        }
+                        &:nth-child(2) {
+                            left: 35%;
+                            img {
+                                &.item {
+                                    top: 13%;
+                                }
+                            }
+                        }
+                    }
+                }
+                &.cinema {
+                    /*  width: 80%;
+                    position: absolute;
+                    right: 9%;
+                    bottom: 12.2%;
+                    min-width: 320px;
+                    max-width: 70%;*/
+                    
+                    width: 78%;
+                    position: absolute;
+                    left: 50%;
+                    top: 50%;
+                    .translate(-50%;
+                    -50%);
+                    img {
+                        &.marco {
+                            display: block;
+                            width: 100%;
+                            position: relative;
+                            //opacity: 0.2;
+                            z-index: 2;
+                        }
+                        &.item {
+                            display: block;
+                            width: 92.4%;
+                            position: absolute;
+                            top: 6.6%;
+                            right: 3.9%;
+                            // z-index: 2;
+                        }
+                    }
+                }
+            }
+            .bg-media {
+                background-size: cover;
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                top: 0;
+                left: 0;
+            }
+        }
+        &.active {
+            visibility: visible;
+            opacity: 1;
+            /*.media {
+                @-webkit-keyframes mask-play {
+                    0% {
+                        -webkit-mask-position: 0% 0;
+                    }
+                    100% {
+                        -webkit-mask-position: 100% 0;
+                    }
+                }
+                -webkit-mask:url(http://gallipoli.tepapa.govt.nz/img/masks/smoke-transition.png);
+                -webkit-mask-size: 1300% 100%;
+                -webkit-mask-position: 0% 0;
+                -webkit-animation: mask-play 1200ms steps(12) forwards;
+            }*/
+        }
+    }
+}

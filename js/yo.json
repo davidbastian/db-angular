@@ -1,0 +1,233 @@
+{
+    "projects": [
+        {
+            "subtitle": "Evens Centre",
+            "title": "Manfeild",
+            "slug":"manfeild",
+            "description": "Project to BlacksheepDesign, I did wireframes, art direction and design. using Photoshop.",
+            "color": "#FF2D55",
+            "media": [
+                {
+                    "device":"cinema",
+                    "image": "002.jpg"
+                }
+            ]
+    },
+        {
+            "subtitle": "Gallipoli",
+            "title": "The Scale <br> of our war",
+            "slug":"gallipoli",
+            "description": "Project to Designworks, I did wireframes, front-end, and interaction design. using GSAP & angularJS.",
+            "color": "#e3e3e3",
+            "media": [
+                {
+                    "device":"ipad",
+                    "image": "001.png"
+                }
+            ]
+        },
+        {
+            "subtitle": "Design proposal",
+            "title": "Andes <br> Films",
+            "slug":"andes-films",
+            "description": "I did a graphic Proposal for this company, Using Photoshop and  made in a grid of 12 columns.",
+            "color": "#D1EEFC",
+            "media": [
+                {
+                    "device":"cinema",
+                    "image": "003.jpg"
+                }
+            ]
+        },
+        {
+            "subtitle": "Speaker, Couch & Consultant",
+            "title": "Christian <br> Andrada",
+            "slug":"christian-andrada",
+            "description": "For this project I did Art direction, Creative idea & Web develop, I used angularJS, Wordpress, powered with GSAP.",
+            "color": "#414141",
+            "media": [
+                {
+                    "device":"cinema",
+                    "image": "004.png"
+                }
+            ]
+        },
+        {
+            "subtitle": "Coorporate website",
+            "title": "Designworks",
+            "slug":"designworks",
+            "description": "I did the Frontend and Interaction design using a grid system of 12 columns.",
+            "color": "#FFF600",
+            "media": [
+                {
+                    "device":"ipad",
+                    "image": "008.png"
+                }
+            ]
+        },
+        {
+            "subtitle": "One day of diference",
+            "title": "Caritas <br> Challenge",
+            "slug":"caritas",
+            "description": "Project that I did interfaces & front end, A flat design inspired a little bit in 'international switzerland styled'. I worked with a system grids of 12 columns.",
+            "color": "#5AC8FA",
+            "media": [
+                {
+                    "device":"cinema",
+                    "image": "010.png"
+                }
+            ]
+        },
+        {
+            "subtitle": "Food & Wine Studio",
+            "title": "Pilar <br> Rodriguez",
+            "slug":"pilar-rodriguez",
+            "description": "Direction of design & web develop, I used wordpress and a grid of 12 columns having the idea of mix colors and boxes with a simple & clean interface.",
+            "color": "#4CD964",
+            "media": [
+                {
+                    "device":"cinema",
+                    "image": "011.jpg"
+                }
+            ]
+        },
+        {
+            "subtitle": "Real Attitude",
+            "title": "<div>Zapatos</div> <br><div>Gacel</div>",
+            "slug":"gacel",
+            "description": "Design & Frontend develop for this brand. I used a grid of 12 columns trying to keep the consistence of a normal ecommerce site.",
+            "color": "#FFD3E0",
+            "media": [
+                {
+                    "device":"cinema",
+                    "image": "012.jpg"
+                }
+            ]
+        },
+        {
+            "subtitle": "Lawyers",
+            "title": "<div>Wadham</div><div>Partners</div>",
+            "slug":"wadham",
+            "description": "Art direction, Interfaces, front-end & back-end, tryiging to use an unusual layout but keeping an elegant design, I used WP for the Backend, and a custom grid system for the Frontend. ",
+            "color": "#c7c7c7",
+            "media": [
+                {
+                    
+                    "device":"ipad",
+                    "image": "020.png"
+                }
+            ]
+        },
+        {
+            "subtitle": "Foundation",
+            "title": "<div>Asian</div><div>New Zealand</div>",
+            "slug":"anzf",
+            "description": "Interaction Design & Frontend develop. I used a grid of 12 columns trying to keep the consistence of a normal ecommerce site.",
+            "color": "#d91212",
+            "media": [
+                {
+                    "device":"cinema",
+                    "image": "014.png"
+                }
+            ]
+        },
+        {
+            "subtitle": "Mercedes Benz Chile",
+            "title": "<div>Kaufmann</div>",
+            "slug":"anzf",
+            "description": "I made Interfaces Design and Frontend for Mobile version of Mercedes Benz in Chile was a Responsive Site and full touch.",
+            "color": "#393939",
+            "media": [
+                {
+                    
+                    "device":"iphone",
+                    "image": "017.jpg"
+                }
+            ]
+        },
+        {
+            "subtitle": "Digital Propouse",
+            "title": "<div>Allan</div><div>Mcneill</div>",
+            "slug":"almn",
+            "description": "In Blacksheepdesign I did a Graphic Proposal and art Direction for this client, Using Photoshop and  made in a grid of 12 columns.",
+            "color": "#afafaf",
+            "media": [
+                {
+                    
+                    "device":"cinema",
+                    "image": "019.jpg"
+                }
+            ]
+        },
+        {
+            "subtitle": "Annual Report",
+            "title": "<div>Wellington</div><div>Airport</div>",
+            "slug":"almn",
+            "description": "I made Interfaces Design and Frontend to Annual report 2014 of Wellington Airport, At this project I have used parallax and smooth animations.",
+            "color": "#9381BD",
+            "media": [
+                {
+                    
+                    "device":"cinema",
+                    "image": "021.jpg"
+                }
+            ]
+        },
+        {
+            "subtitle": "Design proposal",
+            "title": "<div>Barltrop</div><div>Graham</div>",
+            "slug":"barltrop",
+            "description": "I did a graphic Proposal for this company, Using Photoshop and  made in a grid inspired in a golden radio",
+            "color": "#6596AF",
+            "media": [
+                {
+                    "device":"cinema",
+                    "image": "023.gif"
+                }
+            ]
+        },
+        {
+            "subtitle": "Design proposal",
+            "title": "<div>Awapuni</div><div>School</div>",
+            "slug":"awapuni",
+            "description": "I did a graphic Proposal for this school, Using Photoshop and trying to keep dynamically for a diferent kind of content",
+            "color": "#D4D4D4",
+            "media": [
+                {
+                    "device":"cinema",
+                    "image": "024.jpg"
+                }
+            ]
+        },
+        {
+            "subtitle": "Design proposal",
+            "title": "<div>Diocese of</div> <div>Palmerston</div> <div> North</div>",
+            "slug":"awapuni",
+            "description": "I did a graphic Proposal for this school, Using Photoshop and trying to keep dynamically for a diferent kind of content",
+            "color": "#E0E0E0",
+            "media": [
+                {
+                    "device":"cinema",
+                    "image": "025.jpg"
+                }
+            ]
+        },
+        {
+            "subtitle": "Design proposal",
+            "title": "<div>Afp Chile</div>",
+            "slug":"awapuni",
+            "description": "I did a graphic Proposal for this school, Using Photoshop and trying to keep dynamically for a diferent kind of content",
+            "color": "#b5dce4",
+            "media": [
+                {
+                    "device":"cinema",
+                    "image": "026.jpg"
+                }
+            ]
+        }
+        
+
+       
+        
+]
+}

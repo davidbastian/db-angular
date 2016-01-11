@@ -1,0 +1,23 @@
+/*form*/
+textarea {resize:none; overflow:auto}
+input, textarea { background: transparent; border: 0; -webkit-appearance: none!important;  -webkit-border-radius: 0!important; outline: none!important; font-family: inherit; color: inherit; font-size:16px; -webkit-font-smoothing: antialiased!important;  padding:10px; -webkit-box-sizing: border-box!important; -moz-box-sizing: border-box;  box-sizing: border-box;}
+
+/*radio-custom*/
+input[type="radio"] { display:none; }
+input[type="radio"] + label {}
+input[type="radio"] + label h5 {opacity:0.5; display:inline; -webkit-transition:background-color 0.4s linear;-o-transition:background-color 0.4s linear;-moz-transition:background-color 0.4s linear;transition:background-color 0.4s linear;}
+input[type="radio"] + label span {display:inline-block;width:15px;height:15px;margin:-2px 15px 0 0;vertical-align:middle;cursor:pointer;}
+input[type="radio"] + label span {background-color: rgba(255,255,255,0.1);}
+input[type="radio"]:checked + label h5{opacity:1}
+input[type="radio"]:checked + label span{background-color: rgb( 238, 84, 100 );}
+input[type="radio"] + label span,input[type="radio"]:checked + label span {-webkit-transition:background-color 0.4s linear;-o-transition:background-color 0.4s linear;-moz-transition:background-color 0.4s linear;transition:background-color 0.4s linear;}
+
+/*check-custom*/
+input[type="checkbox"] { display:none; }
+input[type="checkbox"] + label {}
+input[type="checkbox"] + label h5 {opacity:0.5; display:inline; -webkit-transition:background-color 0.4s linear;-o-transition:background-color 0.4s linear;-moz-transition:background-color 0.4s linear;transition:background-color 0.4s linear;}
+input[type="checkbox"] + label span {display:inline-block;width:15px;height:15px;margin:6px 15px 0 0;vertical-align:middle;cursor:pointer;}
+input[type="checkbox"] + label span {background-color: rgba(255,255,255,0.1);}
+input[type="checkbox"]:checked + label h5{opacity:1}
+input[type="checkbox"]:checked + label span{background-color: rgb( 238, 84, 100 );}
+input[type="checkbox"] + label span,input[type="radio"]:checked + label span {-webkit-transition:background-color 0.4s linear;-o-transition:background-color 0.4s linear;-moz-transition:background-color 0.4s linear;transition:background-color 0.4s linear;}
