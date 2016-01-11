@@ -4,13 +4,8 @@ $(document).ready(function () {
     //'use strict';
     
     var project = $('.project');
-
-    project.click(function () {
- 
-
-    });
     
-    
+      
     $('.next').click(function(){
         
         if ($('.project.active').is(':last-child')) {
